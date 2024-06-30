@@ -1,0 +1,36 @@
+.logomainBox {
+  width: 100%;
+  overflow: hidden !important;
+  /* border: 1px solid lime; */
+  height: 120px;
+}
+
+.logomainBox ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  overflow: hidden !important;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.logomainBox ul li {
+  color: #6c757d;
+  transition: all 0.3s ease;
+  font-size: 60px;
+  display: inline-block;
+}
+
+.logomainBox .mongo:hover {
+  color: #36a642;
+}
+
+.logomainBox .express:hover {
+  color: red;
+}
+.logomainBox .react:hover {
+  color: #0e90f6;
+}
+.logomainBox .nodejs:hover {
+  color: #66a515;
+}

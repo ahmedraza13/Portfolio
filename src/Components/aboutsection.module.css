@@ -1,0 +1,64 @@
+.mainBox {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+.mainBox section {
+  width: 40%;
+}
+
+.aboutPic img {
+  width: 60%;
+}
+
+.aboutme {
+  color: white;
+  padding: 12px;
+}
+.aboutme h1 {
+  color: var(--secondaryColor);
+}
+.aboutme h5 {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 980px) {
+  /* .intro h3 {
+    font-size: large;
+  }
+  .intro h1 {
+    font-size: 30px;
+  } */
+  .aboutPic img {
+    width: 50%;
+  }
+  .aboutPic {
+    text-align: center;
+  }
+  .mainBox section {
+    width: 90%;
+    /* border: 1px solid red; */
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* .aboutPic img {
+    width: 80%;
+  } */
+  /* .intro {
+    width: 80%;
+  }
+  .intro h3 {
+    font-size: 30px;
+  }
+  .intro h1 {
+    font-size: 36px;
+  } */
+}
