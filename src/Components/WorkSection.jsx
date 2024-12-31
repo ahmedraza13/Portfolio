@@ -73,7 +73,7 @@ const WorkSection = () => {
     AOS.init();
   });
   return (
-    <div className={styles.workMainBox}>
+    <div id="work-section" className={styles.workMainBox}>
       <section className={styles.headingBox} data-aos="fade-up">
         <h5>Portfolio</h5>
         <h1>Check My Recent Work</h1>
